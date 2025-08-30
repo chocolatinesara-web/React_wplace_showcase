@@ -1,0 +1,10 @@
+{
+"homepage": "https://chocolatinesara-web.github.io/React_wplace_showcase/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview"
+  }
+}
